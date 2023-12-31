@@ -1,5 +1,5 @@
 body {
-    background-image: url(images/home.jpg);
+    background-image: url(images/YT.jpg);
     background-size: 100%;
     margin: 0%;
     padding: 0%;
@@ -8,7 +8,6 @@ body {
 }
 .main {
     background-color: rgba(0, 0, 0, 0.700);
-    height: 737px;
     background-size: cover;
 }
 .header {
@@ -46,11 +45,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 .home-content {
     width: 690px;
-    
 }
 .home-content h1 {
     font-size: 56px;
@@ -68,6 +65,7 @@ body {
 .home-content p {
     font-size: 25px;
     margin: 0px 0px 40px;
+    width: 90%;
 }
 .home-content .btn-box {
     display: flex;
