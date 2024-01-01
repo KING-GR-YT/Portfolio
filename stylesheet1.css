@@ -56,9 +56,9 @@ body {
     margin-bottom:0px;
     background: linear-gradient(to right,#3e05f8 15%, #fe1601 35%, rgb(60, 244, 4));
     background-size: 200% auto;
-    -webkit-background-clip: text;
+    background-clip: text;
     color: transparent;
-    animation: gradient 3s linear infinite;
+    animation: gradient 5s linear infinite;
     overflow: hidden;
 }
 
