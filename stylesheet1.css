@@ -7,7 +7,6 @@ body {
 }
 .main {
     background-color: rgba(0, 0, 0, 0.700);
-    height: 737px;
     background-size: cover;
 }
 .header {
@@ -55,14 +54,32 @@ body {
     font-size: 56px;
     font-weight: 700;
     margin-bottom:0px;
-    color: #00abf0;
+    background: linear-gradient(to right,#3e05f8 15%, #fe1601 35%, rgb(60, 244, 4));
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: gradient 3s linear infinite;
+    overflow: hidden;
+}
+
+@keyframes gradient {
+    0%{
+        background-position: 0% 75%;
+    }
+    50%{
+        background-position: 100% 30%;
+    }
+    100%{
+        background-position: 0% 70%;
+    }
+
 }
 .home-content h3 {
     font-size: 32px;
     font-weight: 700;
-    color: #88f000;
-    margin-top: 0px;
-    margin-bottom: 20px;
+    color: #f06400ae;
+    margin-top: 10px;
+    margin-bottom: 5px;
 }
 .home-content p {
     font-size: 25px;
@@ -100,34 +117,6 @@ body {
     background-color: #00abf0;
 }
 
-.home-en {
-    bottom: 40px;
-    width: 200px;
-    display: inline-flex;
-    justify-content: space-between;
-    margin-left: 40px;
-}
-.home-en a {
-    position: relative;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    width: 50px;
-    height: 50px;
-    text-decoration: none;
-    background-color: #00abf0;
-    border-radius: 50%;
-    border: 2px solid rgba(35, 4, 65, 0.967);
-    transition: .5s;
-    overflow: hidden;
-}
-.home-en a:hover {
-    box-shadow: 0 0 5px #8638fb,0 0 10px #00abf0;
-}
-.home-en a img {
-    height: 27px;
-    width: 27px;
-}
 .photo {
     height: 40%;
     width: 19%;
